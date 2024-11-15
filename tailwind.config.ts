@@ -9,8 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        customText: '#21243D',
+        myPink: '#F98585',
+
+      },
+      fontFamily: {
+        heebo: ['Heebo', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
+      boxShadow: {
+        "customShadow": "0 4px 4px 0 #4141418a",
       },
     },
   },
